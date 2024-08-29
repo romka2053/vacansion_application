@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="action_loginFragment_to_inputPassFragment" type="id"/>
+    <item name="action_login_to_search" type="id"/>
+
+</resources>

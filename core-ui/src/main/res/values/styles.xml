@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--Текст -->
+    <style name="sembold_22sp_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="semibold_20sp_white">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_medium_16sp_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="regular_14sp_blue">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="regular_14sp_red">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="regular_14sp_white">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="regular_14sp_green">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="regular_14sp_grey">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/grey3</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_medium_14sp_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_medium_14sp_grey">
+        <item name="android:textColor">@color/grey3</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <!--Окна -->
+    <style name="input_field">
+        <item name="android:background">@drawable/input_field_background</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/grey4</item>
+    </style>
+    <style name="input_add_massage">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">@color/grey3</item>
+    </style>
+
+    <style name="input_pin">
+        <item name="android:background">@drawable/input_field_background</item>
+        <item name="fontFamily">@font/sf_pro_display_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColorHint">@color/grey3</item>
+    </style>
+
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <!--Button-->
+    <style name="button_blue_style">
+
+        <item name="android:background">@drawable/blue_button_draw</item>
+        <item name="android:textColor">@color/blue_button_text_color</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold_italic</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="green_button_style">
+
+        <item name="android:background">@drawable/green_button_draw</item>
+        <item name="android:textColor">@color/blue_button_text_color</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold_italic</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+    <style name="green_button_style2">
+        <item name="android:background">@drawable/green_button_draw2</item>
+        <item name="android:textColor">@color/blue_button_text_color</item>
+        <item name="fontFamily">@font/sf_pro_display_semibold_italic</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="sembold_20sp_white">
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="sembold_14sp_blue">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="semibold_16sp_white">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="semibold_22sp_white">
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+
+
+
+    <style name="regular_16sp_white">
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_in_chip" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:fontFamily">@font/sf_pro_display_medium_italic</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="italic_14sp_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium_italic</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+
+
+</resources>

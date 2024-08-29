@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/card_background"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp">
+
+
+    <ImageView
+        android:id="@+id/image_like"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/like_inactive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/count_people"
+        style="@style/regular_14sp_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Сейчас просматривает 1 человек" />
+
+    <TextView
+        android:id="@+id/name_job"
+        style="@style/text_medium_16sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="UI/UX Designer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count_people"
+        />
+    <TextView
+        android:id="@+id/salary"
+        style="@style/text_medium_16sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="1500-2900 br"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_job"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/town_name"
+        style="@style/regular_14sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="Минск"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salary" />
+    <TextView
+        android:id="@+id/firm"
+        style="@style/regular_14sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="Мобирикс"
+        android:drawableEnd="@drawable/check_ok"
+        android:drawablePadding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/town_name" />
+
+    <TextView
+        android:id="@+id/experience"
+        style="@style/regular_14sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/resource_case"
+        android:drawablePadding="8dp"
+        tools:text="Опыт от 1 года до 3 лет"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firm" />
+
+    <TextView
+        android:id="@+id/date_update"
+        style="@style/regular_14sp_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="Опубликовано 20 февраля"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experience" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_search_people"
+        style="@style/green_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:paddingHorizontal="46dp"
+        android:paddingVertical="12dp"
+        android:text="@string/respond"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_update" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

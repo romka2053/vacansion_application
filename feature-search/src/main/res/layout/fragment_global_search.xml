@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.mainSearch.MainSearchFragment"
+
+    >
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/black"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="center"
+            android:background="@drawable/input_field_background"
+            android:src="@drawable/setting"
+
+            app:layout_constraintBottom_toBottomOf="@+id/edit_text_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/edit_text_login" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_text_login"
+            style="@style/input_field"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/search_text_hint_global"
+            android:ellipsize="end"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="8dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="32dp"
+            android:singleLine="true"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/count_vacancies"
+            style="@style/regular_14sp_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/sorting"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_login"
+            tools:text="145 Вакансий" />
+
+        <TextView
+            android:id="@+id/sorting"
+            style="@style/regular_14sp_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/count_vacancies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/count_vacancies"
+            android:text="@string/sort_by_correspondence" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/vacancies_adapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/count_vacancies"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_job_card" />
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="@+id/edit_text_login"
+            app:layout_constraintStart_toStartOf="@+id/edit_text_login"
+            app:layout_constraintTop_toTopOf="@+id/edit_text_login" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/button_map"
+        style="@style/text_medium_16sp_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:background="@drawable/map_button_background"
+        android:drawableStart="@drawable/map"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:text="@string/map"
+        android:textAlignment="center" />
+</FrameLayout>

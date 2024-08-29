@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_vacancy">Резюме для отклика</string>
+    <string name="add_massage">Добавить сопроводительное</string>
+    <string name="respond">Откликнуться</string>
+    <string name="your_cover_letter">Ваше сопроводительное письмо</string>
+</resources>

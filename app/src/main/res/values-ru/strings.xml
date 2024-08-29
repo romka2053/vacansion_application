@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">vacantionTest</string>
+
+    <!--bottom menu-->
+    <string name="search">Поиск</string>
+    <string name="favorites">Избранное</string>
+    <string name="responses">Отклики</string>
+    <string name="messages">Сообщения</string>
+    <string name="profile">Профиль</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/search_navigation"
+    app:startDestination="@id/mainSearchFragment">
+
+    <fragment
+        android:id="@+id/mainSearchFragment"
+        android:name="com.roman.feature_search.presentation.mainSearch.MainSearchFragment"
+        android:label="fragment_main_search"
+        tools:layout="@layout/fragment_main_search" >
+        <action
+            android:id="@id/action_mainSearchFragment_to_globalSearchFragment"
+            app:destination="@id/globalSearchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/globalSearchFragment"
+        android:name="com.roman.feature_search.presentation.globalSearch.GlobalSearchFragment"
+        android:label="GlobalSearchFragment" />
+</navigation>

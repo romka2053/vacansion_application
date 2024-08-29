@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="currently_viewing">Cейчас просматривают</string>
+    <string name="published">Опубликовано</string>
+    <string name="respond">Откликнуться</string>
+
+    <plurals name="peopleCount">
+        <item quantity="one">%d человек</item>
+        <item quantity="few">%d человека</item>
+        <item quantity="many">%d человек</item>
+        <item quantity="other">%d человек</item>
+    </plurals>
+
+    <plurals name="vacanciesCount">
+        <item quantity="one">%d вакансия</item>
+        <item quantity="few">%d вакансии</item>
+        <item quantity="many">%d вакансий</item>
+        <item quantity="other">%d вакансий</item>
+    </plurals>
+</resources>

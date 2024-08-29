@@ -1,0 +1,17 @@
+<resources>
+    <!-- LoginFragment -->
+    <string name="login_to_personal_account">Login to your personal account</string>
+    <string name="job_search">Job search</string>
+    <string name="mail_or_phone">Mail or phone number</string>
+    <string name="continue_button">Continue</string>
+    <string name="login_with_password">Login with password</string>
+    <string name="employee_search">Employee search</string>
+    <string name="search_description">Posting vacancies and accessing the resume database</string>
+    <string name="text_email_error">You entered an incorrect e-mail</string>
+
+
+    <!-- InputPassFragment -->
+    <string name="sent_massage_to_mail">Sent an email: </string>
+        <string name="text_description">Write to him to ensure that it is you and not someone else in your personal account.</string>
+<string name="confirm">Confirm</string>
+</resources>

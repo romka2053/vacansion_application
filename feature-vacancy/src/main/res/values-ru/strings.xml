@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="required_experience">Требуемый опыт</string>
+    <string name="your_responsibilities">Ваши задачи</string>
+    <string name="ask_question">Задайте вопрос работодателю</string>
+    <string name="question_explanation">Он получит его с откликом на вакансию</string>
+    <string name="respond">Откликнуться</string>
+    <plurals name="peopleCountApplied">
+        <item quantity="one">%d человек уже откликнулся</item>
+        <item quantity="few">%d человека уже откликнулись</item>
+        <item quantity="many">%d человек уже откликнулись</item>
+        <item quantity="other">%d человек уже откликнулись</item>
+    </plurals>
+
+    <plurals name="peopleCountView">
+        <item quantity="one">%d человек смотрит</item>
+        <item quantity="few">%d человека смотрят</item>
+        <item quantity="many">%d человек смотрит</item>
+        <item quantity="other">%d человек смотрит</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_vacancy">Summary for response</string>
+<string name="add_massage">Add accompanying</string>
+    <string name="respond">Respond</string>
+    <string name="your_cover_letter">Your cover letter</string>
+</resources>

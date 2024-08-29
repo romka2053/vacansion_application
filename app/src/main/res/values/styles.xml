@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigation">
+        <item name="android:background">@drawable/bottom_menu_background</item>
+
+        <item name="itemIconTint">@color/bottom_button_color</item>
+        <item name="itemTextColor">@color/bottom_button_color</item>
+    </style>
+
+</resources>

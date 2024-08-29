@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">vacantionTest</string>
+
+    <!--bottom menu-->
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="responses">Responses</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
+</resources>

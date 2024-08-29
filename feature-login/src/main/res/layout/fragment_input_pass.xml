@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputPassFragment"
+    android:fillViewport="true">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:background="@color/black"
+      android:padding="16dp"
+      >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:orientation="vertical">
+          <TextView
+              android:id="@+id/email_text"
+              style="@style/semibold_20sp_white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/sent_massage_to_mail"
+              />
+          <TextView
+              android:layout_marginTop="16dp"
+              style="@style/text_medium_16sp_white"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/text_description"
+              />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginTop="16dp">
+
+              <androidx.appcompat.widget.AppCompatEditText
+                  android:id="@+id/pin1"
+                  android:maxLength="1"
+                  android:inputType="numberPassword"
+                  style="@style/input_pin"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                android:gravity="center"
+                 android:background="@drawable/pin"
+                 />
+              <androidx.appcompat.widget.AppCompatEditText
+                  android:id="@+id/pin2"
+                  android:maxLength="1"
+                  android:layout_marginStart="8dp"
+                  android:inputType="numberPassword"
+                  style="@style/input_pin"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  android:gravity="center"
+                  android:background="@drawable/pin"
+                  />
+              <androidx.appcompat.widget.AppCompatEditText
+                  android:id="@+id/pin3"
+                  android:maxLength="1"
+                  android:layout_marginStart="8dp"
+                  android:inputType="numberPassword"
+                  style="@style/input_pin"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  android:gravity="center"
+                  android:background="@drawable/pin"
+                  />
+              <androidx.appcompat.widget.AppCompatEditText
+                  android:id="@+id/pin4"
+                  android:maxLength="1"
+                  android:layout_marginStart="8dp"
+                  android:inputType="numberPassword"
+                  style="@style/input_pin"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  android:gravity="center"
+                  android:background="@drawable/pin"
+                  />
+
+          </LinearLayout>
+          <androidx.appcompat.widget.AppCompatButton
+              android:id="@+id/button_confirm"
+              style="@style/button_blue_style"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="16dp"
+              android:enabled="false"
+              android:gravity="center"
+              android:paddingVertical="12dp"
+              android:text="@string/confirm"
+              android:textAllCaps="false" />
+
+      </LinearLayout>
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

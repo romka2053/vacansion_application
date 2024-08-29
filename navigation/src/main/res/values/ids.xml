@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="host_main" type="id" />
+    <item name="login_navigation" type="id" />
+    <item name="search_navigation" type="id" />
+    <item name="vacancy_navigation" type="id" />
+    <item name="favorite_navigation" type="id"/>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="search_text_hint">Position, keywords</string>
+    <string name="Jobs_for_you">Jobs for you</string>
+
+
+
+    <string name="more">More</string>
+    <string name="sort_by_correspondence">According to compliance</string>
+    <string name="map">Map</string>
+    <string name="search_text_hint_global">Position for suitable vacancies</string>
+
+
+
+
+</resources>

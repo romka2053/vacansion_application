@@ -1,0 +1,16 @@
+<resources>
+<string name="required_experience">Required Experience</string>
+<string name="your_responsibilities">Your responsibilities</string>
+    <string name="ask_question">Ask your employer a question</string>
+    <string name="question_explanation">He will receive it with his job application</string>
+    <string name="respond">Respond</string>
+    <plurals name="peopleCountApplied">
+        <item quantity="one">%d person has already responded</item>
+        <item quantity="other">%d people have already responded</item>
+    </plurals>
+
+    <plurals name="peopleCountView">
+        <item quantity="one">%d person has already responded</item>
+        <item quantity="other">%d people have already responded</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="currently_viewing">currently viewing</string>
+    <string name="published">Published</string>
+    <string name="respond">Respond</string>
+
+    <plurals name="vacanciesCount">
+        <item quantity="one">%d vacancy</item>
+        <item quantity="other">%d vacancies</item>
+    </plurals>
+    <plurals name="peopleCount">
+        <item quantity="one">%d peron</item>
+        <item quantity="other">%d peoples</item>
+    </plurals>
+
+</resources>
